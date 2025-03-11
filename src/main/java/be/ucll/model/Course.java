@@ -3,7 +3,6 @@ package be.ucll.model;
 public class Course {
 
     private String title;
-
     private int credits;
 
     public Course(String title, int credits) {
@@ -26,5 +25,4 @@ public class Course {
     public void setCredits(int credits) {
         this.credits = credits;
     }
-
 }

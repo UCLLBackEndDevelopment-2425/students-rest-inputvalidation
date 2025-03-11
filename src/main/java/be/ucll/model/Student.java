@@ -1,6 +1,7 @@
 package be.ucll.model;
 
 public class Student {
+
     private String name;
 
     public Student(String name) {
@@ -14,5 +15,4 @@ public class Student {
     public void setName(String name) {
         this.name = name;
     }
-
 }
