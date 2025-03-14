@@ -6,15 +6,19 @@ When you want to add a course to an existing student, but the credits of the cou
 - Code it!
 
 When you use the following POST endpoint http://localhost:8080/Stijn with in the body of the request the following JSON:
+
 ```javascript
 {
     "title": "Full Stack",
     "credits": 2
 }
 ```
-The result should be
+
+The result should be:
+
 - 400 Bad Request
 - The following JSON in the body of the response:
+
 ```javascript
 {
     "credits": "A course must have a minimum of 3 credits"

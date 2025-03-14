@@ -6,15 +6,19 @@ When you want to add a course to a non-existing student, the course shouldn't be
 - Code it!
 
 When you use the following POST endpoint http://localhost:8080/Johan with in the body of the request the following JSON:
+
 ```javascript
 {
     "title": "Full Stack",
     "credits": 6
 }
 ```
-The result should be
+
+The result should be:
+
 - 400 Bad Request
 - The following JSON in the body of the response:
+
 ```javascript
 {
     "error": "Student not found!"

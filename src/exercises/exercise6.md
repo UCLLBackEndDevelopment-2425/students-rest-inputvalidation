@@ -5,12 +5,13 @@ When you try to add a course to a student but following this new course will cau
 - Should you code this validation in the domain, the repository or the service? Why?
 - Code it!
 
-The result should be
+The result should be:
+
 - 400 Bad Request
 - The following JSON in the body of the response:
+
 ```javascript
 {
     "error": "You don't have enough credits to follow this course"
 }
 ```
-
