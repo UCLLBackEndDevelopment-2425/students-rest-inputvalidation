@@ -34,7 +34,7 @@ When you use the following GET endpoint http://localhost:8080/student the result
 
 #### Exercise 1c
 
-You should be able to add a course to a student by making a POST request as follows: POST http://localhost:8080/Elke with in the body of the request the following JSON:
+You should be able to add a course to a student by making a POST request as follows: POST http://localhost:8080/student/Elke with in the body of the request the following JSON:
 
 ```javascript
 {
@@ -46,7 +46,14 @@ You should be able to add a course to a student by making a POST request as foll
 Leads to:
 
 - Status 200 OK
-- Added course to the student
+- The following JSON in the body of the response
+```javascript
+{
+    "title": "Full Stack",
+    "credits": 6
+}
+```
+
 
 When you now do the following GET request http://localhost:8080/student the result should be:
 
