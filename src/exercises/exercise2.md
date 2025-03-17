@@ -5,7 +5,7 @@ When you want to add a course to a non-existing student, the course shouldn't be
 - Should you code this validation in the domain, the repository or the service? Why?
 - Code it!
 
-When you use the following POST endpoint http://localhost:8080/Johan with in the body of the request the following JSON:
+When you use the following POST endpoint http://localhost:8080/student/Johan with in the body of the request the following JSON:
 
 ```javascript
 {

@@ -5,7 +5,7 @@ When you want to add a course to an existing student, but the credits of the cou
 - Should you code this validation in the domain, the repository or the service? Why?
 - Code it!
 
-When you use the following POST end-point http://localhost:8080/Stijn with in the body of the request the following JSON:
+When you use the following POST end-point http://localhost:8080/student/Stijn with in the body of the request the following JSON:
 
 ```javascript
 {
